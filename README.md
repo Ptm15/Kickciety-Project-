@@ -14,6 +14,14 @@ Welcome to the **Kickciety Database Project** readme! This project involves the 
 
 - Primary keys and foreign keys were added to ensure data integrity among tables.
 
+```sql
+ALTER TABLE MEMBERS
+  ADD CONSTRAINT MEMBER_IDPK1 PRIMARY KEY (MEMBER_ID);
+
+ALTER TABLE PAYMENTS
+  ADD CONSTRAINT PAYMENTSFK1 FOREIGN KEY (MEMBER_ID) REFERENCES MEMBERS (MEMBER_ID);
+```
+
 ## Views Created
 
 1. **SIGN_UPS_BY_MONTH**: A view showing sign-ups by month across all base locations.
