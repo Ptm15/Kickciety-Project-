@@ -1,6 +1,6 @@
 # Kickciety Database Project
 
-Welcome to the **Kickciety Database Project** readme! This project involves the creation of a database named `KICKCIETY` for managing a fictional membership-based organization. Below is a brief overview of the project structure, including tables, data insertion, views, queries, and advanced features like triggers and events.
+Welcome to the **Kickciety Database Project** readme! This project involves the creation of a database named `KICKCIETY` for managing a fictional membership-based organisation. Below is a brief overview of the project structure, including tables, data insertion, views, queries, and advanced features like triggers and events.
 
 ## Tables Created
 
